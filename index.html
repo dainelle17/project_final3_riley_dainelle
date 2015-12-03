@@ -9,6 +9,47 @@
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script>
+      $(window).load(function(){
+      $('.slider')._TMS({
+              show:0,
+              pauseOnHover:false,
+              prevBu:'.prev',
+              nextBu:'.next',
+              playBu:false,
+              duration:800,
+              preset:'fade',
+              pagination:true,//'.pagination',true,'<ul></ul>'
+              pagNums:false,
+              slideshow:8000,
+              numStatus:false,
+              banners:false,
+          waitBannerAnimation:false,
+        progressBar:false
+      })
+      });
+
+     $(window).load (
+    function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev',next: '.next', width: 960, items: {
+      visible : {min: 1,
+       max: 4
+},
+height: 'auto',
+ width: 240,
+
+    }, responsive: false,
+
+    scroll: 1,
+
+    mousewheel: false,
+
+    swipe: {onMouse: false, onTouch: false}});
+
+
+    });
+
+     </script>
 </head>
 <body>
 
@@ -25,6 +66,16 @@
                 <li><a href="promotions.html">promotions</a></li>
             </ul>
         </nav>
+
+         <div class="slider-relative">
+         <div class="slider-block">
+         <div class="slider">
+             <ul class="items">
+              <li><img src="images/slide.jpg" alt=""></li>
+              <li><img src="images/slide1.jpg" alt=""></li>
+              <li class="mb0"><img src="images/slide2.jpg" alt=""></li>
+            </ul>
+        </div>
 
 
 
