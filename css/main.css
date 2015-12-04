@@ -1,3 +1,15 @@
+html {
+    box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+
+
 
 body {
     margin: 0;
@@ -72,7 +84,7 @@ body {
 }
 #cssmenu.align-center > ul {
   font-size: 0;
-  text-align: center;
+  text-align: left;
 }
 #cssmenu.align-center > ul > li {
   display: inline-block;
@@ -430,6 +442,32 @@ body {
   border-radius: 3px 0px 0px 3px;
 }
 
+/*Food Hovers*/
+
+#fishdish {
+    height: 20%;
+    width: 20%;
+    margin:bottom;
+}
+
+#fishdish img {
+  position:absolute;
+  padding-left: 5em;
+  padding-top: 2em;
+
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+}
+
+#fishdish img.top:hover {
+  opacity:0;
+}
+
+
 
 /*footer*/
 
@@ -437,6 +475,7 @@ body {
 #footer {
     width: 100%;
     margin: auto;
+    margin-top: 1em;
 }
 
 #footer img {
@@ -444,10 +483,12 @@ body {
     margin: auto;
 }
 
+
+
 /*site container*/
 
 .site-container {
-    max-width: 1200px;
+    max-width: 1000px;
     text-align: center;
     margin: auto;
     overflow: hidden;
