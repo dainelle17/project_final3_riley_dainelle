@@ -52,7 +52,7 @@ p {
   border: 0;
   list-style: none;
   line-height: 1;
-  text-align: left;
+  text-align: center;
   display: block;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -94,7 +94,7 @@ p {
 }
 #cssmenu.align-center > ul {
   font-size: 0;
-  text-align: left;
+  text-align: center;
 }
 #cssmenu.align-center > ul > li {
   display: inline-block;
