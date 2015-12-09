@@ -485,19 +485,19 @@ h2 {
 
 /*Food Menu*/
 
-#appetizer {
+#appetizer, #entree {
   max-width: 900px;
 }
 
 
-#appetizer ul {
+#appetizer ul, #entree ul {
   list-style-type: none;
   width: 500px;
   line-height: normal;
   width: 100%;
 }
 
-#appetizer h3 {
+#appetizer h3, #entree h3 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color:#98BEAD;
@@ -505,25 +505,26 @@ h2 {
 
 }
 
-#appetizer li img {
+#appetizer li img, #entree li img {
   float: left;
   margin: 0 15px 0 0;
   width: 30%;
 }
 
-#appetizer li p {
+#appetizer li p, #entree li p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
     color:#999999;
+    margin: auto;
 }
 
-#appetizer li {
+#appetizer li, #entree li {
   padding: 10px;
   overflow: auto;
 }
 
-#appetizer li:hover {
+#appetizer li:hover, #entree li:hover {
   background: #eee;
   cursor: pointer;
 }
