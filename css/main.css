@@ -18,7 +18,6 @@ body {
     height: 100%;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
@@ -94,7 +93,7 @@ p {
 }
 #cssmenu.align-center > ul {
   font-size: 0;
-  text-align: center;
+  text-align: left;
 }
 #cssmenu.align-center > ul > li {
   display: inline-block;
@@ -354,34 +353,6 @@ p {
 }
 
 /*slider*/
-.wrapper {
-  max-width: 940px;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-/**
- * Use this wrapper only for demo purposes
- * So you can show the items outside the wrapper
- */
-.wrapper--demo {
-  overflow: visible;
-}
-.wrapper--demo:after, .wrapper--demo:before {
-  content: "";
-  position: absolute;
-  width: 800px;
-  height: 100%;
-  top: 0;
-  left: 100%;
-  background: rgba(255, 255, 255, 0.8);
-  z-index: 2;
-}
-.wrapper--demo:before {
-  left: -800px;
-}
 
 .carousel {
   width: 100%;
