@@ -483,6 +483,50 @@ h2 {
   }
 }
 
+/*Food Menu*/
+
+#appetizer {
+  max-width: 900px;
+}
+
+
+#appetizer ul {
+  list-style-type: none;
+  width: 500px;
+  line-height: normal;
+  width: 100%;
+}
+
+#appetizer h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color:#98BEAD;
+  font-size: 1em;
+
+}
+
+#appetizer li img {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 30%;
+}
+
+#appetizer li p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color:#999999;
+}
+
+#appetizer li {
+  padding: 10px;
+  overflow: auto;
+}
+
+#appetizer li:hover {
+  background: #eee;
+  cursor: pointer;
+}
 
 /*footer*/
 
