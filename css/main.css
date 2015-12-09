@@ -441,27 +441,23 @@ h2 {
   border-radius: 3px 0px 0px 3px;
 }
 
-/*Food Hovers*/
+/*Promotions*/
 
-#fishdish {
-    margin:bottom;
-}
-
-#fishdish img {
-  position:absolute;
-  padding-left: 5em;
-  padding-top: 2em;
-
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+#events h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: left;
+  color:#98BEAD;
+  padding: .2em;
 
 }
 
-#fishdish img.top:hover {
-  opacity:0;
+#events img {
+  width: 20%;
+  float: left;
+  padding: .5em;
+  margin: auto;
 }
 
 
@@ -479,6 +475,7 @@ h2 {
 #footer img {
     width: 100%;
     margin: auto;
+
 }
 
 
