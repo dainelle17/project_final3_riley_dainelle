@@ -447,19 +447,44 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   font-weight: 300;
-  text-align: left;
   color:#98BEAD;
   padding: .2em;
 
 }
 
+
 #events img {
   width: 20%;
   float: left;
-  padding: .5em;
+  padding: 1em;
   margin: auto;
 }
 
+#events hr {
+  clear: both;
+}
+
+@media all and (min-width: 500px) {
+  #events img {
+    display: inline;
+    text-align: center;
+    width: 50%;
+  }
+
+  #events p {
+    display: block;
+    clear: both;
+  }
+}
+
+
+@media all and (min-width: 900px) {
+  #events img {
+  width: 20%;
+  float: left;
+  padding: 1em;
+  margin: auto;
+}
 
 
 /*footer*/
