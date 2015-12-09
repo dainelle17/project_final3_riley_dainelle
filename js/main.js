@@ -142,3 +142,8 @@ function() {
 });
 })(jQuery);
 
+
+
+$('a.media').media({width:500, height:400});
+
+
