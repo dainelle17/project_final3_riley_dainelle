@@ -26,6 +26,23 @@ p {
     padding: .5em;
 }
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    color:#98BEAD;
+    padding: .5em;
+
+}
+
+#footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    color:#999999;
+}
+
 /* header */
 
 #header {
@@ -93,14 +110,14 @@ p {
 }
 #cssmenu.align-center > ul {
   font-size: 0;
-  text-align: left;
+  text-align: center;
 }
 #cssmenu.align-center > ul > li {
   display: inline-block;
   float: none;
 }
 #cssmenu.align-center ul ul {
-  text-align: left;
+  text-align: center;
 }
 #cssmenu.align-right > ul > li {
   float: right;
@@ -473,3 +490,4 @@ p {
     overflow: hidden;
     padding: .5em;
 }
+
