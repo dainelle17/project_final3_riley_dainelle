@@ -26,6 +26,14 @@ p {
     padding: .5em;
 }
 
+#footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .50em;
+    text-align: center;
+    color:#999999;
+    padding: .5em;
+}
+
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
@@ -34,13 +42,6 @@ h2 {
     color:#98BEAD;
     padding: .5em;
 
-}
-
-#footer p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    text-align: justify;
-    color:#999999;
 }
 
 /* header */
@@ -472,6 +473,7 @@ h2 {
     width: 100%;
     margin: auto;
     margin-top: 1em;
+    text-align: center;
 }
 
 #footer img {
