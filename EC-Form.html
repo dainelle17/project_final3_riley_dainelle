@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+
+    <section id="container">
+
+        <h2>Gusteaus Online Order Form</h2>
+        <form name="hongkiat" id="hongkiat-form" method="post" action="#">
+        <div id="wrapping" class="clearfix">
+            <section id="aligned">
+            <input type="text" name="name" id="name" placeholder="Your name" autocomplete="off" tabindex="1" class="txtinput">
+
+            <input type="email" name="email" id="email" placeholder="Your e-mail address" autocomplete="off" tabindex="2" class="txtinput">
+
+            <input type="tel" name="telephone" id="telephone" placeholder="Phone number?(optional)" tabindex="4" class="txtinput">
+
+            <textarea name="foodmessage" id="message" placeholder="Number of food items (1).." tabindex="5" class="txtblock"></textarea>
+            </section>
+
+            <section id="aside" class="clearfix">
+                <section id="recipientcase">
+                <h3>Food Item Requested:</h3>
+                    <select id="recipient" name="recipient" tabindex="6" class="selmenu">
+                        <option value="chicken">Poitrine de Poulet Fromage </option>
+                        <option value="veggie">Légumes</option>
+                        <option value="Shrimp">crevettes poêlé</option>
+                        <option value="dessert">crêpe strawberry </option>
+                        <option value="ribeye">Entrecôte</option>
+                    </select>
+                </section>
+
+            </section>
+        </div>
+
+
+        <section id="buttons">
+            <input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Reset">
+            <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Time To EAT!">
+            <br style="clear:both;">
+        </section>
+        </form>
+    </section>
+
+</body>
+</html>
