@@ -58,6 +58,7 @@ h2 {
 }
 
 
+
 /*Navigation*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 #cssmenu,
@@ -485,19 +486,15 @@ h2 {
 
 /*Food Menu*/
 
-#appetizer, #entree {
-  max-width: 900px;
-}
-
-
-#appetizer ul, #entree ul {
+#appetizer ul, #entree ul, #dessert ul, {
   list-style-type: none;
-  width: 500px;
-  line-height: normal;
-  width: 100%;
+  width: 60%;
+  float: left;
+  text-decoration: none;
+
 }
 
-#appetizer h3, #entree h3 {
+#appetizer h3, #entree h3, #dessert h3, {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color:#98BEAD;
@@ -505,28 +502,105 @@ h2 {
 
 }
 
-#appetizer li img, #entree li img {
-  float: left;
-  margin: 0 15px 0 0;
+#appetizer li img, #entree li img, #dessert img, {
   width: 30%;
+  text-decoration: none;
+
 }
 
-#appetizer li p, #entree li p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    text-align: justify;
-    color:#999999;
-    margin: auto;
-}
 
-#appetizer li, #entree li {
-  padding: 10px;
+
+#appetizer li, #entree li, #dessert li {
   overflow: auto;
+  text-decoration: none;
+
 }
 
-#appetizer li:hover, #entree li:hover {
+#appetizer li:hover, #entree li:hover, #dessert li:hover {
   background: #eee;
   cursor: pointer;
+}
+
+
+@media all and (min-width: 400px) {
+   #appetizer ul {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    #entree ul {
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+
+    #dessert ul {
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+  }
+
+@media all and (min-width: 600px) {
+   #appetizer ul {
+        width: 100%;
+        text-align: left;
+        margin: auto;
+    }
+
+    #entree ul {
+        width: 100%;
+        text-align:left;
+    }
+
+    #dessert ul {
+        width:100%;
+        text-align:left;
+      }
+
+   #appetizer p {
+        width: 100%;
+        text-align: left;
+        margin: auto;
+        padding-bottom: 1%;
+
+    }
+
+    #entree p {
+        width: 100%;
+        text-align: left;
+        margin: auto;
+
+    }
+
+    #dessert p {
+         width: 100%;
+        text-align: left;
+        margin: auto;
+
+    }
+  }
+
+    @media all and (min-width: 600px) {
+      #appetizer li img {
+        text-align: right;
+      }
+    }
+
+    @media all and (min-width: 600px) {
+      #dessert h3 {
+      width: 100%;
+      }
+
+    }
+
+/*wine*/
+
+#winelist {
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 /*footer*/
@@ -545,11 +619,6 @@ h2 {
 
 }
 
-#winelist {
-  width: 100%;
-  text-align: center;
-  margin: auto;
-}
 
 /*site container*/
 
