@@ -1,5 +1,5 @@
 
-[GitHub](http://www.thedaydreamerdesigns.com/)
+[GitHub](https://github.com/dainelle17/project_final3_riley_dainelle)
 
 [Webhost](http://www.thedaydreamerdesigns.com/)
 
