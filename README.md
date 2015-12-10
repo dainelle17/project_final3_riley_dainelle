@@ -11,7 +11,8 @@ This plugin created a hamburger menu when the page is minimized or at a mobile s
 [Photo Slider](http://www.jqueryscript.net/slider/Responsive-Infinite-Carousel-with-jQuery-CSS3.html)
 This plugin is on the front page of my website. It acts as a responsive nonstop photo "carousel" which contains images of the food. 
 
-[PDF form host](http://www.thedaydreamerdesigns.com/)
+[PDF form host](http://jquery.malsup.com/media/misc.html
+)
 This plugin is found on the wine page. It contains a PDF of the wines which would ideally be easily updated whenever new wines were imported. Unfortunately the plugin did not come with a ReadMe where I could center it better, as oppose to it being left justified.  
 
 Notes: 
