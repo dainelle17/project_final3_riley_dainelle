@@ -18,3 +18,5 @@ Notes:
 -My dev tools kept bringing up errors for the winelist script. I tried to remove it, but it removes the entire PDF plugin. (It says "media is not a function"). Additionally the plug in works on all browsers with the exception of Chrome. 
 
 -The carousel is also coming up as an error although it is necessary for the slider to operate. 
+
+-My dish of the day is on the food page, there is a link to the Gusteau FB on promotions 
